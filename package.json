@@ -1,0 +1,24 @@
+{
+    "name": "portfolio-anime",
+    "version": "1.0.0",
+    "description": "My portfolio project showcasing anime-themed projects.",
+    "main": "index.js",
+    "scripts": {
+      "start": "live-server .",
+      "build": "echo 'Define your build step here'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/portfolio-anime.git"
+    },
+    "author": "Andrej Andrasik",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/yourusername/portfolio-anime/issues"
+    },
+    "homepage": "https://github.com/yourusername/portfolio-anime#readme",
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  
