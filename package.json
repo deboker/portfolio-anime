@@ -1,26 +1,13 @@
 {
     "name": "portfolio-anime",
     "version": "1.0.0",
-    "description": "My portfolio project showcasing anime-themed projects.",
-    "main": "index.js",
     "scripts": {
-        "build": "webpack --mode production",
-        "dev": "webpack serve --mode development --open"
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/yourusername/portfolio-anime.git"
-    },
-    "author": "Andrej Andrasik",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/yourusername/portfolio-anime/issues"
-    },
-    "homepage": "https://github.com/yourusername/portfolio-anime#readme",
     "devDependencies": {
-        "live-server": "^1.1.0",
-        "webpack": "^5.90.3",
-        "webpack-cli": "^5.1.4",
-        "webpack-dev-server": "^5.0.2"
+      "vite": "^2.6.4"
     }
-}
+  }
+  
