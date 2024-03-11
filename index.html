@@ -213,11 +213,13 @@
         name="contact"
         method="POST"
         data-netlify="true"
+        data-netlify-honeypot="bot-field"
         onSubmit="submit"
         id="contact-form"
         netlify
       >
         <div class="input-box">
+          <input class="d-none" name="bot-field" />
           <input
             type="text"
             name="user_name"
