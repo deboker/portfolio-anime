@@ -349,6 +349,10 @@ span {
   cursor: pointer;
 }
 
+.d-none {
+  display: none;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
