@@ -16,6 +16,7 @@
   --second-bg-color: linear-gradient(135deg, #2e4057 0%, #4b5b70 100%);
   --text-color: #fff;
   --main-color: #0ef;
+  --text-icon-color: #222e44;
 }
 
 html {
@@ -286,11 +287,15 @@ span {
 
 .portfolio-layer h4 {
   font-size: 3rem;
+  color: var(--text-color);
+  text-shadow: 0.2rem 0.2rem 0.6rem var(--text-icon-color);
 }
 
 .portfolio-layer p {
   font-size: 1.6rem;
   margin: 0.3rem 0 1rem;
+  color: var(--text-color);
+  text-shadow: 0.2rem 0.2rem 0.6rem var(--text-icon-color);
 }
 
 .portfolio-layer a {
@@ -300,12 +305,13 @@ span {
   width: 5rem;
   height: 5rem;
   background: var(--text-color);
+  box-shadow: 0.2rem 0.2rem 0.6rem var(--text-icon-color);
   border-radius: 50%;
 }
 
 .portfolio-layer a i {
   font-size: 2rem;
-  color: var(--second-bg-color);
+  color: var(--text-icon-color);
 }
 
 .contact h2 {
@@ -377,12 +383,12 @@ span {
 }
 
 .footer-iconTop a:hover {
-  box-shadow: 0 0 1rem var(--main-color);
+  box-shadow: 0 0 1rem var(--text-color);
 }
 
 .footer-iconTop a i {
   font-size: 2.4rem;
-  color: var(--second-bg-color);
+  color: var(--text-icon-color);
 }
 
 @media (max-width: 1200px) {
