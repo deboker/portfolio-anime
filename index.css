@@ -150,7 +150,7 @@ span {
   border-radius: 4rem;
   box-shadow: none;
   font-size: 1.6rem;
-  color: var(--second-bg-color);
+  color: var(--text-icon-color);
   letter-spacing: 0.1rem;
   font-weight: 600;
 }
