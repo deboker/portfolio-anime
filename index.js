@@ -52,4 +52,14 @@ const typed = new Typed('.multiple-text', {
 })
 
 
+document.addEventListener("DOMContentLoaded", () => {
+    const chars = document.querySelectorAll(".char");
+    chars.forEach((char, index) => {
+      const delay = 1 + index * 0.1; // Start at 1s, increment by 0.1s per character
+      char.style.animationDelay = `${delay}s`;
+    });
+  });
+  
+  
+
 

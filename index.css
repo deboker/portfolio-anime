@@ -183,20 +183,50 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
+/* Button styles */
 .btn {
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
   border-radius: 4rem;
-  box-shadow: none;
   font-size: 1.6rem;
-  color: var(--text-icon-color);
-  letter-spacing: 0.1rem;
-  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--main-color);
+  overflow: hidden; /* To ensure animation overflow is clipped */
+  position: relative;
 }
 
+.word {
+  display: inline-block;
+  margin-right: 1.2rem;
+}
+
+.char {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  transform: translateX(100%);
+  opacity: 0;
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Optional Hover Effect */
 .btn:hover {
   box-shadow: 0 0 1rem var(--main-color);
+  color: var(--text-color);
 }
 
 .about {
@@ -402,6 +432,11 @@ span {
 .contact form .btn {
   margin-top: 2rem;
   cursor: pointer;
+}
+
+.contact form .btn:hover {
+  box-shadow: 0 0 1rem var(--main-color);
+  color: var(--text-color);
 }
 
 .d-none {
