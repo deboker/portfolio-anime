@@ -240,6 +240,7 @@ span {
 .about-img img {
   width: 22vw;
   padding: 4rem;
+  border-radius: 10rem;
 }
 
 .heading {
