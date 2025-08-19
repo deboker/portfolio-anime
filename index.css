@@ -59,6 +59,11 @@ section {
   cursor: default;
 }
 
+.main-logo img {
+  max-width: 5rem;
+  height: auto;
+}
+
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
